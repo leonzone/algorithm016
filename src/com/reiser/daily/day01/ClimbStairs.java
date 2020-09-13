@@ -1,4 +1,6 @@
-public class ClimbStairs {
+package com.reiser.daily.day01;
+
+class ClimbStairs {
 
     public static void main(String[] args) {
         ClimbStairs c = new ClimbStairs();
