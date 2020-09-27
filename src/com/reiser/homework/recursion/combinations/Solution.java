@@ -29,8 +29,10 @@ public class Solution {
 
         for (int i = begin; i <= n - (k - path.size()) + 1; i++) {
             path.addLast(i);
+            System.out.println("递归之前 => " + path);
             gener(n,k,i+1,path,result);
             path.removeLast();
+            System.out.println("递归之后 => " + path);
 
         }
     }
