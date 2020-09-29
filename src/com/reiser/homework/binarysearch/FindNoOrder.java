@@ -1,12 +1,10 @@
-学习笔记
-
+package com.reiser.homework.binarysearch;
 
 /**
  * @author: reiserx
  * Date:2020/9/29
  * Des: 找无序点就是找最小值
  */
-```java
 public class FindNoOrder {
     public static void main(String[] args) {
         FindNoOrder f = new FindNoOrder();
@@ -37,4 +35,3 @@ public class FindNoOrder {
         return nums[low];
     }
 }
-``` 
