@@ -1,4 +1,4 @@
-package com.reiser.homework.greedy.jumpgame;
+package com.reiser.homework.greedy._55;
 
 /**
  * @author: reiserx

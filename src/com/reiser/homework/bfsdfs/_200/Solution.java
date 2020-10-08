@@ -1,4 +1,4 @@
-package com.reiser.homework.bfsdfs.numberofislands;
+package com.reiser.homework.bfsdfs._200;
 
 /**
  * @author: reiserx

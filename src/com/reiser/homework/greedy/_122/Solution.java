@@ -1,4 +1,4 @@
-package com.reiser.homework.greedy.besttimetobuyandsellstockii;
+package com.reiser.homework.greedy._122;
 
 /**
  * @author: reiserx

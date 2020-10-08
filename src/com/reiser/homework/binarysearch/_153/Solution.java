@@ -1,4 +1,4 @@
-package com.reiser.homework.binarysearch.findminimuminrotatedsortedarray;
+package com.reiser.homework.binarysearch._153;
 
 /**
  * @author: reiserx
