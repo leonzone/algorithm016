@@ -7,12 +7,13 @@ import java.util.Map;
 
 /**
  * @author: reiserx
- * Date:2020/9/9
- * Des:hash 算法
+ * Date:2020/10/11
+ * Des:1.两数之和
+ * https://leetcode-cn.com/problems/two-sum/description/
  */
-public class TwoSum2 {
+public class Solution {
     public static void main(String[] args) {
-        TwoSum2 solution = new TwoSum2();
+        Solution solution = new Solution();
         int[] nums = {2, 7, 11, 15};
         int[] r = solution.twoSum(nums, 9);
         PrintUtil.out(r);
