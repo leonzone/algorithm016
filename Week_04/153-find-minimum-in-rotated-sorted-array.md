@@ -7,12 +7,13 @@ class Solution {
     public int findMin(int[] nums) {
         int low = 0;
         int high = nums.length - 1;
-
+        //TODO 为什么是 low < high 而不是 low <= high
         while (low < high) {
             //使用位运算计算中间点
             int mid = low + ((high - low) >> 1);
-            //
+            //中间值比右边界小，说明右侧是单调递增的，最小值不在右侧
             if (nums[mid] < nums[high]) {
+            //TODO 为什么是 high = mid 而不是 high = mid-1
                 high = mid;
             } else {
                 low = mid + 1;

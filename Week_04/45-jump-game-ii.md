@@ -1,7 +1,8 @@
 [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)
 
 解题：
-使用贪心解法，每次都取最远的距离，这样一定能覆盖之前的局部最优方案
+使用贪心解法，maxPosition 每次记录本次能跳到的最远距离
+这样一定能覆盖之前的局部最优方案
 
 
 

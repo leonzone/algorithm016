@@ -1,5 +1,11 @@
 46. [全排列](https://leetcode-cn.com/problems/permutations/)
 
+## 题解
+回溯算法
+
+
+## 代码
+
 ```java
 public class Solution {
 

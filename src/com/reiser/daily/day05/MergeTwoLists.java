@@ -1,6 +1,6 @@
 package com.reiser.daily.day05;
 
-import com.reiser.homework.linkedlist.ListNode;
+import com.reiser.tools.ListNode;
 
 /**
  * @author: reiserx

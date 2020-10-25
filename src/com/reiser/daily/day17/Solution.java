@@ -1,6 +1,6 @@
 package com.reiser.daily.day17;
 
-import com.reiser.homework.linkedlist.ListNode;
+import com.reiser.tools.ListNode;
 
 import java.util.Stack;
 

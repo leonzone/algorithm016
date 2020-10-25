@@ -7,24 +7,30 @@ package com.reiser.homework.bfsdfs._200;
  */
 public class Solution {
     public int numIslands(char[][] grid) {
-        int n = grid.length;
-        if (n == 0) {
-            return 0;
+        int m = grid.length;
+        if (m == 0) {
+            return m;
         }
+
+        int n = grid[0].length;
         int count = 0;
-        int m = grid[0].length;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                //找到一个
                 if (grid[i][j] == '1') {
                     count++;
+                    //标记周围的路径
                     dfsMarking(grid, i, j);
                 }
             }
         }
         return count;
+
     }
 
-    private void dfsMarking(char[][] grid, int i, int j) {
+    //标记周围的路径为 0
+    public void dfsMarking(char[][] grid, int i, int j) {
         if (i < 0 || j < 0 || i >= grid.length || j >= grid[0].length || grid[i][j] != '1') {
             return;
         }

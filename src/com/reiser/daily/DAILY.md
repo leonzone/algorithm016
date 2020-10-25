@@ -10,4 +10,5 @@
 |   33  | [1143](https://leetcode-cn.com/problems/longest-common-subsequence/) |   最长公共子序列  |
 |   34  | [74](https://leetcode-cn.com/problems/search-a-2d-matrix/) |  [搜索二维矩阵](./day34/74-search-a-2d-matrix.md)  |
 |   35  | [70](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) |  [替换空格](./day35/Offer05-ti-huan-kong-ge-lcof.md)  |
-
+|   36  | [64](https://leetcode-cn.com/problems/minimum-path-sum/submissions/) |  [最小路径和](./day36/64-minimum-path-sum.md)  |
+|   37  | [322](https://leetcode-cn.com/problems/coin-change/) |  [零钱兑换](./day37/322-coin-change.md)  |

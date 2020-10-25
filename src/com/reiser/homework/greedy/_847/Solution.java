@@ -7,7 +7,7 @@ import java.util.Set;
  * @author: reiserx
  * Date:2020/10/11
  * Des:874. 模拟行走机器人
- * https://leetcode-cn.com/problems/walking-robot-simulation/submissions/
+ * https://leetcode-cn.com/problems/walking-robot-simulation/description/
  */
 class Solution {
     public int robotSim(int[] commands, int[][] obstacles) {

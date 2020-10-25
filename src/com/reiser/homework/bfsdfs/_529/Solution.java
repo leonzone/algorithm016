@@ -4,6 +4,7 @@ package com.reiser.homework.bfsdfs._529;
  * @author: reiserx
  * Date:2020/10/11
  * Des:529. 扫雷游戏
+ *
  * https://leetcode-cn.com/problems/minesweeper/
  */
 public class Solution {
@@ -35,9 +36,11 @@ public class Solution {
 
         if (count != 0) {
             board[x][y] = (char) (count + '0');
+            //周围找到的炸弹
             return board;
         }
 
+        //周围没找到的炸弹，集训探寻
         //递归搜索8个方向相邻的节点
         for (int i = 0; i < 8; i++) {
             int newX = x + dx[i];
