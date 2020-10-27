@@ -20,6 +20,9 @@ public class Solution {
                     //遇见 ）） 时，需要先判断 第一个 ）是否为有效括号，且要找到 i - dp[i - 1] - 1
                 } else if (i - dp[i - 1] > 0 && s.charAt(i - dp[i - 1] - 1) == '(') {
                     dp[i] = dp[i - 1] + ((i - dp[i - 1]) >= 2 ? dp[i - dp[i - 1] - 2] : 0) + 2;
+
+                    dp[i] = dp[i - 2]  + 2;
+                    dp[i] = dp[i - 1] + dp[i - dp[i - 1] - 2] + 2;
                 }
                 ans = Math.max(ans, dp[i]);
             }
