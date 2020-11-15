@@ -1,13 +1,9 @@
-package com.reiser.homework.dp._300;
+[300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
 
-import java.util.Arrays;
+## 题解
 
-/**
- * @author: reiserx
- * Date:2020/11/11
- * Des:300. 最长上升子序列
- * https://leetcode-cn.com/problems/longest-increasing-subsequence/
- */
+## 代码
+```java
 public class Solution {
     public int lengthOfLIS(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -30,3 +26,4 @@ public class Solution {
         return max;
     }
 }
+```
