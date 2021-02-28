@@ -10,6 +10,7 @@ import java.util.List;
  * Date:2020/9/20
  * Des:N 叉数前序遍历
  */
+//N 叉数前序遍历
 public class Solution {
 
     public List<Integer> preorder(Node root) {

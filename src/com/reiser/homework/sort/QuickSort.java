@@ -18,7 +18,7 @@ public class QuickSort {
     private int partition(int[] a, int begin, int end) {
         int counter = begin;
         int pivot = end;
-
+        // 保证 pivot 左边的都比 pivot 小，右边的都比 pivot 大
         for (int i = begin; i < end; i++) {
             if (a[i] < a[pivot]) {
                 int tmp = a[i];

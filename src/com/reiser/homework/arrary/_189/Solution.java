@@ -1,12 +1,12 @@
-package com.reiser.homework.arrary;
+package com.reiser.homework.arrary._189;
 
 /**
  * @author: reiserx
- * Date:2020/9/13
- * Des:旋转数组
+ * Date:2020/12/27
+ * Des:189. 旋转数组
+ * https://leetcode-cn.com/problems/rotate-array/
  */
-public class RotateArray {
-
+public class Solution {
     public void rotate(int[] nums, int k) {
         int len = nums.length;
         k = k % len;

@@ -8,8 +8,6 @@ import com.reiser.tools.ListNode;
  * Des: 暴力解法
  */
 public class Solution {
-
-
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) {
             return head;

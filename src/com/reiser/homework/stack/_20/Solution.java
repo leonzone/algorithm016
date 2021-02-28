@@ -1,4 +1,4 @@
-package com.reiser.homework.queue.validparentheses;
+package com.reiser.homework.stack._20;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,7 +7,8 @@ import java.util.Stack;
 /**
  * @author: reiserx
  * Date:2020/9/12
- * Des:
+ * Des:20. 有效的括号
+ * https://leetcode-cn.com/problems/valid-parentheses/
  */
 public class Solution {
 

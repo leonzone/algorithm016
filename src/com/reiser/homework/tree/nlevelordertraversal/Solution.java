@@ -13,7 +13,6 @@ import java.util.Queue;
  * Des:层序遍历
  */
 public class Solution {
-
     public List<List<Integer>> levelOrder(Node root) {
         if (root == null) {
             return null;
@@ -33,5 +32,4 @@ public class Solution {
         }
         return result;
     }
-
 }

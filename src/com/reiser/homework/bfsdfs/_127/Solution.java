@@ -15,7 +15,6 @@ import java.util.*;
  */
 public class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-
         Map<String, List<String>> dict = new HashMap<>(wordList.size());
         int length = beginWord.length();
         // 以 hit 为例 构建一个以 *it、h*t、hi* 为 key 的字典，并把想同 key 的字符串放到同一个 list 里面
@@ -58,6 +57,5 @@ public class Solution {
 
         }
         return -1;
-
     }
 }

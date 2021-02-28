@@ -26,7 +26,7 @@ public class Solution {
 class UnionFind {
     int[] parent;
     int count;
-
+r
     public UnionFind(int n) {
         parent = new int[n];
         count = n;

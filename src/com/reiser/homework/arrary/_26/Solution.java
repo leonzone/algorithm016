@@ -1,25 +1,24 @@
-package com.reiser.homework.arrary;
+package com.reiser.homework.arrary._26;
 
 /**
  * @author: reiserx
- * Date:2020/9/13
- * Des:数组去重
+ * Date:2020/12/27
+ * Des:26. 删除排序数组中的重复项
+ * https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
  */
-public class RemoveDuplicates {
+public class Solution {
     public int removeDuplicates(int[] nums) {
-
         if (nums.length == 0) {
             return 0;
         }
-        int i = 0;
-        for (int j = 0; j < nums.length; j++) {
-            if (nums[i] != nums[j]) {
-                i++;
-                nums[i] = nums[j];
+        int p = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[p] != nums[i]) {
+                p++;
+                nums[p] = nums[i];
             }
         }
-        return i + 1;
-
+        return p + 1;
     }
 
     /**

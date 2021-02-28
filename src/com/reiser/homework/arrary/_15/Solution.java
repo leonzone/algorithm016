@@ -6,6 +6,7 @@ import java.util.*;
  * @author: reiserx
  * Date:2020/9/8
  * Des:三数求和, 暴力求解
+ * https://leetcode-cn.com/problems/3sum/
  */
 public class Solution {
     public List<List<Integer>> threeSum(int[] nums) {

@@ -1,4 +1,4 @@
-package com.reiser.homework.queue;
+package com.reiser.homework.queue._641;
 
 import java.util.*;
 
